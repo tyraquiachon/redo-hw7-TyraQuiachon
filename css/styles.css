@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Color Palette
+#C599B6 - mauve purple
+#FAD0C4 - peachy
+#FFF7F3 - off white/egshell
+#E6B2BA - light pink
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #FFF7F3;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+header h2 {
+    color: #FFF7F3;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    border-left: 4px solid #E6B2BA;
+    padding-left: 10px;
+}
+
+p {
+    font-weight: 400;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* HW7 styling
+------------------------------------*/
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+    padding-top: 20px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+.column-narrow, .column-wide {
+    margin-bottom: 30px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: #C599B6;
+    color: #FFF7F3;
+    padding: 60px 0;
+}
+
+footer {
+    background: #C599B6;
+    color: #FFF7F3;
+    text-align: center;
+}
+
+footer a {
+    color: #FFF7F3;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    border-right: 1px solid #FFF7F3;
+}
+
+.contact-info a:last-child {
+    border-right: none;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background: #FFF7F3;
+}
+
+.work-experience, .education {
+    padding: 60px 0;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background: #FAD0C4;
+}
+
+.education h3 {
+    border-left: 4px solid #C599B6;
+}
+
+/* Profile Pic
+------------------------------------*/
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
