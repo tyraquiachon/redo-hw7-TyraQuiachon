@@ -31,12 +31,14 @@ h2 {
     margin-top: 0;
 }
 
-header h1, header h2 {
+header h1{
+    color: #FFFFFF;
     margin: 0;
 }
 
 header h2 {
-    color: #FFF7F3;
+    color: #FAD0C4;
+    margin: 0;
 }
 
 h3 {
